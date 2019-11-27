@@ -1,0 +1,9 @@
+[Unit]
+Description=The discord meme bot
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/benjamin/workspace/discordbots/start.sh
+
+[Install]
+WantedBy=multi-user.target

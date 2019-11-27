@@ -10,6 +10,7 @@ git pull
 
 if ! [ -e .discord ]; then
     echo "discord token not found"
+    sleep 1m
     exit 1
 fi
 
