@@ -5,7 +5,7 @@ import os
 import re
 import hidad
 import creeper
-
+import uwu
 
 def getvar(string, defaultstr='none'):
     sstring = str(string)
@@ -26,6 +26,7 @@ client = discord.Client()
 parserlist = []
 parserlist.append(hidad.replydad)
 parserlist.append(creeper.creeper)
+parserlist.append(uwu.replyuwu)
 
 
 @client.event
